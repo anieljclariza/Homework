@@ -1,2 +1,3 @@
-# Aniel-J D. Clariza
-## Homework and Class Activities
+1. Aniel-J D. Clariza
+   - Homework
+   - Class Activites
