@@ -1,13 +1,12 @@
-student = {
-    "name": "Aniel",
-    "age": 20,
-    "major": "general"
-}
+import random
+target = random.randint(1, 10000)
+guess = None
 
-student["GPA"] = 3.8
-
-print(student)
-
-student.pop("age")
-
-print(student)
+while guess != target:
+    guess = int(input("Guess the number: "))
+    if guess > target:
+        print("Too high!")
+    elif guess < target:
+        print("Too low!")
+else:
+    print("Correct!")
