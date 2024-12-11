@@ -1,12 +1,11 @@
-import random
-target = random.randint(1, 10000)
-guess = None
+student_info = {
+    "Name:": input("What is the info of student 1?: "),
+    "Grade:": input("What is the grade of student 1?: ")
+}
 
-while guess != target:
-    guess = int(input("Guess the number: "))
-    if guess > target:
-        print("Too high!")
-    elif guess < target:
-        print("Too low!")
-else:
-    print("Correct!")
+for x, y in student_info.items():
+    print(x, y)
+
+
+while response == "True":
+    
